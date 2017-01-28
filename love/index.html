@@ -1,107 +1,15 @@
-<!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>This Site Likely Contains Sexually Explicit Photos Of Someone You Know!</title>
-<link rel="stylesheet" type="text/css" href="/tis/style4.css">
-<script type="text/javascript" src="/tis/jquery-1.11.2.min.js.download"></script>
-<style>
-    #bg{background: url(/gir/13.jpg) no-repeat top center; background-size:cover}
-    #choices input:checked:before{background-image: url(http://wac.3adc.edgecastcdn.net/803ADC/cs1/preland/img/v10//check.png);}
-</style>
-</head>
-<body>
-
-<div id="content">
-
-    <div id="bg"></div>
-
-    <div id="splash" class="box" style="display: block;">
-        <h2>Attention!</h2>
-        <p><span> thisdevilsleepsWell</span> wants to trade her nude pics with you. <br><br> Do you accept?</p>
-        <p><button>Yes</button></p>
-    </div>
-
-    <div id="geo" class="box wide">
-        <h2>Finding Horny Women Near <br> <span>Your Area</span></h2>
-        <div class="pin-wrap"><img class="pin" style="display: none" src="/tis/pin.gif"></div>
-    </div>
-
-    <div id="ok" class="box">
-        <h2>This is not a traditional dating site!</h2>
-        <p>Before we can show you nude pics of horny women in your area that want to fuck right now, we need to ask a few quick questions.</p>
-        <p><button>OK!</button></p>
-    </div>
-
-    <div id="questions" class="box">
-        <ul><li class="current">1</li><li>2</li></ul>
-        <p class="q1 current">The women on this site are horny cheating girlfriends and single moms looking to fuck all the time.
-            It is likely you will see someone you know. Do you agree to keep their identity secret?</p>
-        <p class="q2">The women on this site are not at all interested in a "relationship" and are only looking to fuck. Are you OK with this request?</p>
-        <p class="q4">Are you 24 years of age or older? The women on this site are not interested in men younger than that due to rude and immature behavior in the past.</p>
-        <p><button>Yes</button><button>No</button></p>
-    </div>
-
-    
-
-    <div id="congrats" class="box">
-       <h2>Congratulations!</h2>
-        <p>You have qualified to enter our site. Please click Continue to complete the registration process.<br><br>
-            VERY IMPORTANT! Remember you must keep the identities of women you see on here a secret.</p>
-        <p><button>Continue</button></p>
-    </div>
-
-</div>
-
-<script>
-    $(function() {
-        $('#splash').delay(100).fadeIn(200);
-    });
-
-    $('#splash button').click(function(){
-        $('#splash').fadeOut(200);
-        $('#geo').delay(200).fadeIn(function(){
-            $('.pin').show();
-        });
-        setTimeout(function(){
-            $('#geo').fadeOut(200);
-            $('#ok').delay(200).fadeIn();
-        }, 5000);
-    })
-
-    $('#ok button').click(function(){
-        $('#ok').fadeOut(200);
-        $('#questions').delay(200).fadeIn();
-    })
-
-    $('#questions button').click(function(){ next('#questions','li','p','q4'); })
-    
-    $('#choices button').click(function(){ next('#choices','h2','p','c4'); })
-
-    function next(a,b,c,d){
-        var w = $(a+' '+b+'.current'), x = w.next(b), y = $(a+' '+c+'.current'), z = y.next(c);
-        if(z.hasClass(d)) {
-            $(a).hide();
-            $(a).next('.box').show();
-        } else {
-            w.removeClass('current');
-            x.addClass('current');
-            y.removeClass('current');
-            z.addClass('current');
-        }
-    }
-
-    $('#congrats button').click(function(){
-                    document.location.assign("http://wooga.info/ULhU");
-            window.open("http://track.cpamatica.com/aff_c?offer_id=1362&aff_id=8013&url_id=0" , "_blank");
-                return false;
-    })
-
-</script>
-
-
-
-
-
-</body></html>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1; url=http://example.com">
+        <script type="text/javascript">
+            window.location.href = "http://example.com"
+        </script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow this <a href='http://example.com'>link to example</a>.
+    </body>
+</html>
